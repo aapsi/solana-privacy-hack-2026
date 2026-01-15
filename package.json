@@ -1,0 +1,26 @@
+{
+  "name": "ghostbuys",
+  "version": "0.1.0",
+  "description": "Trade memecoins privately. No copy trading. No wallet tracking.",
+  "private": true,
+  "workspaces": [
+    "app",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=app",
+    "build": "npm run build --workspace=app",
+    "build:programs": "anchor build",
+    "test": "anchor test",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet"
+  },
+  "keywords": [
+    "solana",
+    "privacy",
+    "memecoin",
+    "trading",
+    "confidential"
+  ],
+  "author": "",
+  "license": "MIT"
+}
