@@ -75,6 +75,8 @@ id.json
 
 # Vercel
 .vercel
+.env
+
 
 # Turborepo
 .turbo
